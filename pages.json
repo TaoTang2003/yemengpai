@@ -1,0 +1,89 @@
+{
+  "pages": [
+    {
+      "path": "pages/home/home",
+      "style": {
+        "navigationBarTitleText": "野盟派"
+      }
+    },
+    {
+      "path": "pages/me/me",
+      "style": {
+        "navigationBarTitleText": "个人中心"
+      }
+    },
+    {
+      "path": "pages/dynamic/dynamic",
+      "style": {
+        "navigationBarTitleText": "盟友圈",
+        "enablePullDownRefresh": true,
+        "backgroundColor": "#141414"
+      }
+    },
+    {
+      "path": "pages/explore/explore",
+      "style": {
+        "navigationBarTitleText": "盟友库"
+      }
+    },
+    {
+      "path": "pages/me/profileEdit/profileEdit",
+      "style": {
+        "navigationBarTitleText": "个人信息修改"
+      }
+    },
+    {
+      "path": "pages/me/profileEdit/textEditor"
+    },
+    {
+      "path": "pages/dynamic/detail",
+      "style": {
+        "navigationBarTitleText": "盟友圈"
+      }
+    },
+    {
+      "path": "pages/explore/detail"
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "",
+    "navigationStyle": "default",
+    "navigationBarBackgroundColor": "#141414"
+  },
+  "tabBar": {
+    "backgroundColor": "#111111",
+    "color": "#aaaaaa",
+    "selectedColor": "#443CAC",
+    "iconWidth": "30px",
+    "fontSize": "0",
+    "spacing": "0",
+    "height": "55px",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "iconPath": "static/icons/home_FILL0_wght400_GRAD0_opsz48.png",
+        "selectedIconPath": "static/icons/home_FILL1_wght400_GRAD0_opsz48.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/explore/explore",
+        "iconPath": "static/icons/group_FILL0_wght400_GRAD0_opsz48.png",
+        "selectedIconPath": "static/icons/group_FILL1_wght400_GRAD0_opsz48.png",
+        "text": "盟友库"
+      },
+      {
+        "pagePath": "pages/dynamic/dynamic",
+        "iconPath": "static/icons/chat_FILL0_wght400_GRAD0_opsz48.png",
+        "selectedIconPath": "static/icons/chat_FILL1_wght400_GRAD0_opsz48.png",
+        "text": "盟友圈"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "iconPath": "static/icons/person_FILL0_wght400_GRAD0_opsz48.png",
+        "selectedIconPath": "static/icons/person_FILL1_wght400_GRAD0_opsz48.png",
+        "text": "我的"
+      }
+    ]
+  }
+}
