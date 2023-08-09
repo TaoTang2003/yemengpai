@@ -44,7 +44,31 @@
     {
       "path": "pages/explore/detail"
     }
-  ],
+      ,{
+            "path" : "pages/me/profileEdit/addressEditor/addressEditor",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "vant-weapp",
+				"usingComponents": {
+					 "van-button": "/wxcomponents/vant-weapp/button/index",
+					 "van-field": "/wxcomponents/vant-weapp/field/index",
+					 "van-cascader": "/wxcomponents/vant-weapp/cascader/index",
+					 "van-popup": "/wxcomponents/vant-weapp/popup/index"
+				},
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/me/profileEdit/personLabel/personLabel",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
   "globalStyle": {
     "navigationBarTextStyle": "white",
     "navigationBarTitleText": "",

@@ -38,14 +38,15 @@
     },
     "quickapp" : {},
     "mp-weixin" : {
-        "appid" : "wx71dae22cc937890f",
+        "appid" : "wxf586ec36c9aefba4",
         "setting" : {
             "urlCheck" : true,
             "es6" : true,
             "minified" : true,
             "postcss" : true
         },
-        "usingComponents" : true
+        "usingComponents" : true,
+        "permission" : {}
     },
     "vueVersion" : "3"
 }

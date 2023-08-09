@@ -70,6 +70,9 @@
     }
   },
   "dependencies": {
+    "@vant/area-data": "^1.5.0",
+    "libphonenumber-js": "^1.10.39",
+    "vant": "^2.12.54",
     "vuex": "^4.1.0",
     "vuex-persistedstate": "^4.1.0"
   },
